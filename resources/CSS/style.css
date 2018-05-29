@@ -204,19 +204,18 @@ footer{
     display: none;
   }
 
-  lh-info{
-    display: flex;
+  .lh-info{
     flex-wrap: wrap;
+
   }
 
-  span.title{
-    display: block;
-  }
+ .info{
+   margin: auto;
+   width: 90%;
+   padding: 0.5rem;
+ }
 
-  div.info{
-    width: 90%;
-    flex-wrap: wrap;
-    display: block;
-  }
-
+ footer{
+   text-align: center;
+ }
 }
