@@ -174,9 +174,8 @@ footer{
   .bannermain{
     width: 100%;
     height: 15rem;
-
-
   }
+
   .container section{
     top: 10rem;
     padding: 1rem 2rem;
@@ -194,4 +193,30 @@ footer{
     font-size: 1rem;
     font-weight: bold;
   }
+
+  .product{
+    width: 90%;
+    align-items: center;
+    margin: auto;
+  }
+
+  #gl, #cw{
+    display: none;
+  }
+
+  lh-info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  span.title{
+    display: block;
+  }
+
+  div.info{
+    width: 90%;
+    flex-wrap: wrap;
+    display: block;
+  }
+
 }
